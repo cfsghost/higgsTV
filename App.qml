@@ -26,6 +26,7 @@ ApplicationWindow {
 				id: image;
 				anchors.fill: parent;
 				fillMode: Image.PreserveAspectFit;
+				cache: true;
 				source: cover;
 				opacity: 0;
 
